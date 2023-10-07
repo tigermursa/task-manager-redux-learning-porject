@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
-import CounterReducer from "./features/counter/counterSlice";
+import tasksSlice from "./features/tasks/tasksSlice";
 
 const store = configureStore({
   reducer: {
-    counter: CounterReducer,
+    tasksSlice: tasksSlice,
   },
 });
 
 export default store;
+
+// this is the main store component with configureStore 

@@ -1,5 +1,7 @@
+// createSlice from redux toolkit
 import { createSlice } from "@reduxjs/toolkit";
 
+// the initial value
 const initialState = {
   count: 0,
 };
